@@ -30,12 +30,12 @@ const RestaurantsList = () => {
     return (
         <div >
             <form className={styles["filter-form"]}>
-                <div>
+                <div className= {styles.search}>
                     <input onChange={onSearchKeyChange} type="text" placeholder="Search restaurants.." />
                 </div>
-                <div>
-                    <label htmlFor="minRating">Minimum Rating</label>
-                    <input onChange={onRatingsChange} type="number" id="minRating" />
+                <div className={styles.rating}>
+                    <label htmlFor="minRating"></label>
+                    <input onChange={onRatingsChange} type="number" id="minRating" placeholder=" Minimum Rating: 0" />
                 </div>
             </form>
             <div className={styles.container}>

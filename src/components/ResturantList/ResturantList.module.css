@@ -3,6 +3,7 @@
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 .filter-form {
@@ -10,4 +11,27 @@
     justify-content: space-between;
     padding: 20px;
     margin: 10px 40px;
+}
+.search input{
+    padding: 10px 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.rating input{
+    padding: 10px 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+@media(max-width: 480px){
+    .filter-form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .search input{
+        margin-bottom: 10px;
+    }
 }
