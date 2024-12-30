@@ -1,0 +1,45 @@
+
+.container {
+    width: 400px;
+    /* height: 200px; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 16px;
+    padding: 20px 0px;
+}
+.container:empty{
+    display: none;
+}
+
+.header {
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.header p{
+    margin-bottom: 10px;
+}
+.header .icon{
+    margin-right: 10px;
+}
+ .pin{
+    padding-bottom: 30px;
+}
+.body {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.main-info{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.yellow {
+    color: rgb(250 204 21)
+}
+
+.green {
+    color: green;
+}
